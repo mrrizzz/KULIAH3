@@ -1,0 +1,24 @@
++----------------------+
+|       Mobil          |
++----------------------+
+| - merk: String       |
+| - warna: String      |
+| - jenis: String      |
+| - ccmesin: String    |
+| - stok: String       |
++----------------------+
+| + Mobil(merk: String,|
+|   warna: String,     |
+|   jenis: String,     |
+|   ccmesin: String,   |
+|   stok: String)      |
+| + infoMobil(): void  |
++----------------------+
+
+        ^
+        |
++----------------------+
+|      TesTugas2       |
++----------------------+
+| + main(args: String[])|
++----------------------+
