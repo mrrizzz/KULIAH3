@@ -16,6 +16,6 @@ public class MainDiagram {
 
         System.out.println("Saldo awal: " + tabungan.getSaldo());
         System.out.println("Menabung 3500");
-        System.out.println("Saldo sekarang: " + tabungan.menabung(3500));
+        System.out.printf("Saldo sekarang: %d%n", tabungan.simpanUang(3500));
     }
 }
