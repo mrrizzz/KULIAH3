@@ -1,11 +1,3 @@
-//Buatlah sebuah program yang mampu mengganti kata tertentu suatu string.
-//Contoh:
-//Input : String kalimat utama : Praktikum di laboratorium Database
-//String yang diganti : Database
-//String pengganti : Sistem Informasi
-//Output : Kalimat utama menjadi : Praktikum di laboratorium Sistem Informasi
-//Program harus bisa berjalan untuk semua inputan string.
-
 import java.util.Scanner;
 
 public class ReplaceString {
