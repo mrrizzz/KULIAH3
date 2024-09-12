@@ -11,13 +11,13 @@ public class SwapName {
         
         scanner.close();
 
-        String[] swappedNames = swapFamilyName(name1, name2);
+        String[] swappedNames = swapWord(name1, name2);
 
         System.out.println("String nama pertama : " + swappedNames[0]);
         System.out.println("String nama kedua : " + swappedNames[1]);
     }
 
-    private static String[] swapFamilyName(String name1, String name2) {
+    private static String[] swapWord(String name1, String name2) {
         String[] splitName1 = name1.split(" ");
         String[] splitName2 = name2.split(" ");
 

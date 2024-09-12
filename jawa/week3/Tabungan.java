@@ -25,5 +25,4 @@ public class Tabungan{
 			return false;
 		}
 	}
-
 }	
