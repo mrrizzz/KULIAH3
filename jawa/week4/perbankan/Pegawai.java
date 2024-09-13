@@ -3,7 +3,10 @@ public class Pegawai{
   String nama;
 
   public Pegawai(int nip_pegawai){
-    this(nip_pegawai,”NoName“);
+    //this(nip_pegawai,”NoName“);
+    this.nip = nip_pegawai;
+    this.nama = "NoName";
+      
   }
 
   public Pegawai(int nip_pegawai, String nama_pegawai){
