@@ -16,11 +16,13 @@ public class Truk {
     }
 
     public boolean tambahMuatan(double berat) {
-        double muatanBaru = this.muatan + (berat * 9.8); 
+        double muatanBaru = this.muatan + berat; 
         if (muatanBaru <= this.muatanMaks) {
             this.muatan = muatanBaru;
             return true;
         }
         return false;
     }
+
+
 }
