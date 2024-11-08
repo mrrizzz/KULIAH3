@@ -4,7 +4,7 @@ public class Kalender {
     private int tahun;
 
     public Kalender() {
-        this(1, 1, 2000); // Inisialisasi default
+        this(1, 1, 2000); 
     }
 
     public Kalender(int tanggal) {

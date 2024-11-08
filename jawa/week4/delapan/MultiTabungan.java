@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class MultiTabungan {
     private double saldo;
     private static final double USD_TO_IDR = 9000;
@@ -11,7 +12,15 @@ public class MultiTabungan {
         return this.saldo;
     }
 
-    public void simpanUang(double jumlah, String mataUang) {
+    public void simpanUang() {
+        System.out.println("simpan  UANG: ");
+	Scanner scanner = new Scanner(System.in);
+        System.out.print("masukkan mata uang :");
+        String mataUang = scanner.nextLine();
+
+	System.out.print("masukkan nominal:");
+        double jumlah = scanner.nextDouble();
+
         switch (mataUang.toUpperCase()) {
             case "USD":
                 this.saldo += jumlah * USD_TO_IDR;
@@ -26,7 +35,15 @@ public class MultiTabungan {
         }
     }
 
-    public boolean ambilUang(double jumlah, String mataUang) {
+    public boolean ambilUang() {
+        System.out.println("TARIK UANG: ");
+	Scanner scanner = new Scanner(System.in);
+        System.out.print("masukkan mata uang :");
+        String mataUang = scanner.nextLine();
+
+	System.out.print("masukkan nominal:");
+        double jumlah = scanner.nextDouble();
+
         double jumlahIDR;
         switch (mataUang.toUpperCase()) {
             case "USD":
